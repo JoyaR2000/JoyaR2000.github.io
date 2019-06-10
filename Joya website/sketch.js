@@ -163,6 +163,8 @@ function generate_leaderboard() {
     }
     alert("Leaderboard: " + JSON.stringify(leaderboard,null,1))
   }
+}
+
   function generate_alltime_leaderboard() {
   	let alltime_leaderboard = { }
   	database.ref().orderByValue().limitToLast(3).on("value", function(snapshot) {
