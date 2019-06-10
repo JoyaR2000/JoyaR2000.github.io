@@ -57,7 +57,12 @@ function draw() {
   if (keyIsDown(UP_ARROW)) {
     y=y-8
   }
-  }
+}
+   else { 
+		x = touches[0].x
+		y= touches[0].y
+}
+
   fill(0,0,255)
   circle(a,b,10)
   a = a + 5
