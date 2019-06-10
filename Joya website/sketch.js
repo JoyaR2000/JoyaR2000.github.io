@@ -44,6 +44,7 @@ function draw() {
   background(120,100,155);
   fill(100,125,180)
   circle(x,y,10)
+  if (touches.length == 0)   {
   if(keyIsDown(LEFT_ARROW)) {
     x = x - 8
   }
@@ -55,6 +56,7 @@ function draw() {
   }
   if (keyIsDown(UP_ARROW)) {
     y=y-8
+  }
   }
   fill(0,0,255)
   circle(a,b,10)
