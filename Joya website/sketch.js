@@ -78,8 +78,8 @@ function draw() {
   time=time-0.05
   
   textSize(15)
-  text("score: " + score,700,100)
-  text("level: " + level,600,100)
+  text("score: " + score,300,100)
+  text("level: " + level,400,100)
   text("time:" + time.toFixed(0),500,100)
   
   
