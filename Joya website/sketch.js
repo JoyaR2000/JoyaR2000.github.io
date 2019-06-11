@@ -79,8 +79,8 @@ function draw() {
   
   textSize(15)
   text("score: " + score,50,100)
-  text("level: " + level,100,100)
-  text("time:" + time.toFixed(0),150,100)
+  text("level: " + level,120,100)
+  text("time:" + time.toFixed(0),170,100)
   
   
   for (i=0; i<count; i=i+1) {
